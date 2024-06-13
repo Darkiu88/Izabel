@@ -38,6 +38,7 @@ class Vaca extends Animal {
 
 public class SonidoAnimal {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         System.out.println("Elige un animal:");
         System.out.println("1. Perro");

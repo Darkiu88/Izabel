@@ -34,6 +34,7 @@ public class CalculoNomina {
     public static void main(String[] args) {
 
         // esto hace las preguntas y contesta dependiendo los valores 
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("Ingrese los días laborales:");
